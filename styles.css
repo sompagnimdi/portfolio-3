@@ -250,6 +250,13 @@ main{
     background-color: var(--themeColor);
     border-radius: 3px;
 }
+#about .divider ~p{
+    color: var(--textColor);
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-top: 15px;
+}
 
 #about .about-col{
     display: flex;
@@ -272,5 +279,11 @@ main{
     font-size: 35px;
     letter-spacing: 0.5px;
     margin-top: -10px;
+}
+#about .about-col .info-col p{
+    color: var(--textColor);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-style: italic;
 }
 /*=== About Section Ends ===*/
