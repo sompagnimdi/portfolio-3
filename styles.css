@@ -301,5 +301,11 @@ main{
 #about .about-col .info-col .icon-list-col .icon-list ul li strong{
     color: var(--sideBGColor);
     font-weight: 600;
+    margin: 2px;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li span{
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 15px;
 }
 /*=== About Section Ends ===*/
