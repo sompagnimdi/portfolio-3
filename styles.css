@@ -308,4 +308,16 @@ main{
     font-weight: 500;
     font-size: 15px;
 }
+/* Mobile View*/
+@media only screen and (max-width: 850px);{
+    #about{
+        padding: 50px 10px;}
+       #about .divider ~ p {
+        color: var(--textColor);
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        font-weight: 15px;
+    }
+}
+    
 /*=== About Section Ends ===*/
