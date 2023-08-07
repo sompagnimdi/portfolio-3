@@ -355,5 +355,33 @@ main{
         width: 90%;
     }
 }
-    
 /*=== About Section Ends ===*/
+
+/*=== Facts Section Start ===*/
+
+#fact{
+    padding: 50px 30px;
+    background-color: white;
+}
+#fact .fact-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: 50px;
+}
+#fact .fact-row .fact-box strong{
+    color: var(--sideBGColor);
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+#fact .fact-row .fact-box i{
+color: var(--themeColor);
+ font-size: 40px;
+}
+#fact .fact-row .fact-box p{
+
+}
+/*=== Facts Section Ends ===*/
+
