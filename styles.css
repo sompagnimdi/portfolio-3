@@ -14,7 +14,7 @@
     --sideBGColor: #040b14;
     --themeColor: #00A78E;
     --iconBGColor: #2c2f3f;
-    --textColor: #525252;
+    --textColor: #353535;
     --bgColor: #F7F7F7;
 }
 
@@ -250,11 +250,11 @@ main{
     background-color: var(--themeColor);
     border-radius: 3px;
 }
-#about .divider ~p{
+.sub-para{
     color: var(--textColor);
     font-size: 15px;
     letter-spacing: 0.4px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 15px;
 }
 
@@ -337,7 +337,23 @@ main{
         flex-direction: column;
         gap: 0;
     }
+    #about .about-col .info-col .icon-list-col .icon-list ul li {
+        margin: 10px 0;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li strong{
+        font-weight: 500;
+        margin-right: 0px;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li span{
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
 
+@media only screen and (max-width: 400px){
+    #about .about-col .img-col img{
+        width: 90%;
+    }
 }
     
 /*=== About Section Ends ===*/
