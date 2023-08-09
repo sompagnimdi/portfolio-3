@@ -367,7 +367,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-    margin: 50px;
+    margin-top: 50px;
 }
 #fact .fact-row .fact-box strong{
     color: var(--sideBGColor);
@@ -381,7 +381,71 @@ color: var(--themeColor);
  font-size: 40px;
 }
 #fact .fact-row .fact-box p{
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*   Mobile View */
+@media only screen and (max-width: 700px) {
+    #fact{
+        padding: 40px 15px;
+    }
+    #fact .fact-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    
+}
+@media only screen and (max-width: 350px){
+    #fact .fact-row .fact-box i{
+        font-size: 30px;
+    }
+    #fact .fact-row .fact-box strong{
+        font-size: 20px;
+    }
+    #fact .fact-row .fact-box p{
+        font-weight: 400;
+        font-size: 14px;
+    }
 
 }
 /*=== Facts Section Ends ===*/
+
+
+/*============ Skills Section Starts ================*/
+#skills{
+    padding: 70px 30px;
+}
+#skills .skill-row{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+#skills .skill-row .skill-box .skill-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+#skills .skill-row .skill-box .skill-info h2{
+    color: var(--sideBGColor);
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+}
+#skills .skill-row .skill-box .skill-outter-line{
+    width: 100%;
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+#skills .skill-row .skill-box .skill-outter-line .skill-inner-line{
+    
+
+}
+
+/*============ Skills Section Ends ==================*/
 
