@@ -443,8 +443,9 @@ color: var(--themeColor);
     border-radius: 15px;
 }
 #skills .skill-row .skill-box .skill-outter-line .skill-inner-line{
-    
-
+    height: 10px;
+    background-color: var(--themeColor);
+    border-radius: 20px;
 }
 
 /*============ Skills Section Ends ==================*/
