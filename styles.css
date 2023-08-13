@@ -487,6 +487,23 @@ color: var(--themeColor);
     border-left: 2px solid var(--themeColor);
     position: relative;
 }
+#resume .resume-row .resume-cols .my-info::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--themeColor);
+    background-color: white;
+}
+#resume .resume-row .resume-cols h3{
+    color: var(--sideBGColor);
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 
 /*============ Resume Section Ends ==================*/
