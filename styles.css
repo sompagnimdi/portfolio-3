@@ -635,10 +635,30 @@ color: var(--themeColor);
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transform: scale(0);
-    transition: 0;
+    /* transform: scale(0); */
+    transition: 0.3s;
     border-radius: 10px;
-    visibility: hidden;
+    /* visibility: hidden; */
+}
+#portfolio .port-row .port-item:hover .port-info{
+    transform: scale(1);
+    visibility: visible;
+}
+#portfolio .port-row .port-item:hover .port-info h4{
+    color: var(--bgColor);
+    font-size: 25px;
+    font-weight: 600;
+}
+#portfolio .port-row .port-item:hover .port-info h4 + p{
+    color: var(--bgColor);
+    font-size: 14px;
+}
+#portfolio .port-row .port-item:hover .port-info a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
 }
 /*============ Portfolio Section Ends ==================*/
 
