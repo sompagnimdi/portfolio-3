@@ -712,6 +712,21 @@ color: var(--themeColor);
     background-color: var(--themeColor);
     color: var(--bgColor);
     transition: 0.7s;
+    text-align: center;
+}
+#service .service-row .service-box:hover .icon i{
+    color: var(--themeColor);
+    background-color: var(--bgColor);
+}
+#service .service-row .service-box .ser-info h4{
+    color: var(--sideBGColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+#service .service-row .service-box .ser-info h4 + p{
+    color: var(--textColor);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* ===== Service Section Ends ========= */
