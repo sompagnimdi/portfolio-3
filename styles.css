@@ -728,6 +728,44 @@ color: var(--themeColor);
     font-size: 14px;
     font-weight: 500;
 }
+/*===== Mobile view======= */
+@media only screen and (max-width: 850px){
+    #service{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+#service .service-row{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+}
 
+@media only screen and (max-width: 550px){
+#service .service-row{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+}
+}
 /* ===== Service Section Ends ========= */
+
+/* ============ Contacts Section Starts ============== */
+
+#contact{
+    padding: 70px 30px;
+}
+#contact .contact-row{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+#contact .contact-row .contact-left{
+    flex-basis: 40%;
+    min-width: 40%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    border-radius: 30px;
+    padding: 30px;
+}
+/* ============ Contacts Section Ends ================ */
 
