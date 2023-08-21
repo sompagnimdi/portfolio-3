@@ -784,5 +784,19 @@ color: var(--themeColor);
     color: var(--themeColor);
     transition: 0.5s;
 }
+#contact .contact-row .contact-left .icon-box:hover .icon i{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+}
+#contact .contact-row .contact-left .icon-box .info{
+    font-size: 20px;
+    color: var(--sideBGColor);
+    font-weight: 600;
+}
+#contact .contact-row .contact-left .icon-box .info h4 + p{
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+}
 /* ============ Contacts Section Ends ================ */
 
