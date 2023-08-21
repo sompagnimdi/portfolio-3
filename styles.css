@@ -764,8 +764,25 @@ color: var(--themeColor);
     min-width: 40%;
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 30px;
+}
+#contact .contact-row .contact-left .icon-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30 0;
+}
+#contact .contact-row .contact-left .icon-box .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--themeColor);
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: var(--themeColor);
+    transition: 0.5s;
 }
 /* ============ Contacts Section Ends ================ */
 
