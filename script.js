@@ -16,3 +16,5 @@ let typed = Typed('.auto-input',{
     backDelay: 2000,
     loop: true,
 })
+// Acti
+

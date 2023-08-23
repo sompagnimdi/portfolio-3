@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans serif;
+    scroll-behavior: smooth;
 }
 
 /* Global Variables */
@@ -830,6 +831,30 @@ color: var(--themeColor);
 #contact .contact-row .contact-right form input:focus,
 #contact .contact-row .contact-right form textarea:focus{
     border: 2px solid var(--themeColor);
+}
+#contact .contact-row .contact-right form input[type=submit]{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+    border: 2px solid var(--themeColor);
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* ===Mobile view === */
+@media only screen and (max-width: 800px){
+    #contact{
+        padding: 50px;
+    }
+    #contact .contact-row{
+        flex-direction: column;
+        gap: 10;
+    }
+}
+@media only screen and (max-width: 800px){
+    #contact{
+        padding: 50px 10px;
+    }
 }
 /* ============ Contacts Section Ends ================ */
 
